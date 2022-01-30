@@ -1,0 +1,21 @@
+# Start
+Test: This is a first line.
+Test2: This is a second line. 
+goto # Responses
+
+# Responses
+Character: And here are some response options.
+- First one
+	Character: If you choose the first option I'll say this.
+	Character: You can use indented blocks for responses.
+	Character: You can also use a goto like the second option.
+	Character: If you go to # END it will end the conversation.
+	Character: Otherwise, it will continue below the responses list.
+	goto # Responses
+- Second option
+	Character: Second option
+	 goto # Responses
+- Third one
+	Character: Third option
+	goto # Responses
+- End conversation goto # END

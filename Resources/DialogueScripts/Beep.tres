@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/saywhat_godot/dialogue_resource.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+titles = {"Start":"1"}
+lines = {"1":{"character":"Mr. Krabs","next_id":"2","replacements":[],"text":"The one that goes \"bee-boo-boo-bop, boo-boo-beep.\"","type":"dialogue"},"2":{"character":"Radio DJ","next_id":"3","replacements":[],"text":"No, man. You're thinking of \"bee-boo-boo-bop, boo-boo-bop.\"","type":"dialogue"},"3":{"character":"Mr. Krabs","next_id":"4","replacements":[],"text":"Bee-boo-boo-boo-boo-bop, [garbled telephone noise] bee-boo-boo-bop, [garbled telephone noise] boo-boo-bee-bop? [garbled telephone noise] Not bee-boo-boo-beep? [garbled telephone noise] Bop? [garbled telephone noise] Beep?! [garbled telephone noise] Boo-boo-bop?! [SpongeBob screams]","type":"dialogue"},"4":{"character":"SpongeBob","next_id":"","replacements":[],"text":"Oh my gosh. Why was Mr. Krabs making all those beeping sounds? Could it be that he's... [scene zooms in on him] ...a robot? Nah. [peeks into the window again and sees Mr. Krabs doing a robot dance on his desk. He jumps onto Squidward's arms] Oh, Squidward, it's terrible! Mr. Krabs... talking to radio... beeping sounds... strange dancing... robot!","type":"dialogue"}}

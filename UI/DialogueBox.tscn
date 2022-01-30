@@ -1,0 +1,213 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://UI/DialogueBox.gd" type="Script" id=1]
+[ext_resource path="res://Actors/UI_16x16.png" type="Texture" id=2]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 64, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 128, 176, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ) ],
+"loop": true,
+"name": "Show",
+"speed": 2.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "Hide",
+"speed": 5.0
+} ]
+
+[node name="DialogueBox" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -16.0
+margin_top = 24.0
+margin_right = -16.0
+margin_bottom = 24.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="Panel" type="Panel" parent="."]
+modulate = Color( 1, 1, 1, 0.152941 )
+margin_left = -232.0
+margin_top = 16.0
+margin_right = 284.0
+margin_bottom = 161.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DialogueWithoutResponses" type="Control" parent="."]
+margin_left = -177.0
+margin_top = 23.0
+margin_right = -137.0
+margin_bottom = 63.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Speech" type="RichTextLabel" parent="DialogueWithoutResponses"]
+margin_left = 9.0
+margin_right = 385.0
+margin_bottom = 110.0
+bbcode_enabled = true
+bbcode_text = "TEST"
+tab_size = 1
+text = "TEST"
+fit_content_height = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DialogueWithResponses" type="Control" parent="."]
+margin_left = -177.0
+margin_top = 23.0
+margin_right = -137.0
+margin_bottom = 63.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Speech" type="RichTextLabel" parent="DialogueWithResponses"]
+margin_left = 9.0
+margin_right = 417.0
+margin_bottom = 41.0
+bbcode_enabled = true
+bbcode_text = "TEST"
+tab_size = 1
+text = "TEST"
+fit_content_height = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Response0" type="Control" parent="DialogueWithResponses"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 65.0
+margin_bottom = 41.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="RichTextLabel" parent="DialogueWithResponses/Response0"]
+margin_left = 33.0
+margin_top = 34.0
+margin_right = 225.0
+margin_bottom = 51.0
+text = "Response 1"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="DialogueWithResponses/Response0"]
+position = Vector2( 9, 41 )
+frames = SubResource( 3 )
+animation = "Hide"
+playing = true
+
+[node name="Response1" type="Control" parent="DialogueWithResponses"]
+margin_top = 1.0
+margin_right = 40.0
+margin_bottom = 41.0
+rect_pivot_offset = Vector2( -399, 73 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="RichTextLabel" parent="DialogueWithResponses/Response1"]
+margin_left = 233.0
+margin_top = 34.0
+margin_right = 425.0
+margin_bottom = 51.0
+text = "Response 2
+"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="DialogueWithResponses/Response1"]
+position = Vector2( 209, 41 )
+frames = SubResource( 3 )
+animation = "Hide"
+playing = true
+
+[node name="Response2" type="Control" parent="DialogueWithResponses"]
+margin_left = 25.0
+margin_top = 1.0
+margin_right = 65.0
+margin_bottom = 41.0
+rect_pivot_offset = Vector2( -399, 73 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="RichTextLabel" parent="DialogueWithResponses/Response2"]
+margin_left = 33.0
+margin_top = 74.0
+margin_right = 225.0
+margin_bottom = 91.0
+text = "Response 3
+"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="DialogueWithResponses/Response2"]
+position = Vector2( 9, 81 )
+frames = SubResource( 3 )
+animation = "Hide"
+playing = true
+
+[node name="Response3" type="Control" parent="DialogueWithResponses"]
+margin_top = 1.0
+margin_right = 40.0
+margin_bottom = 41.0
+rect_pivot_offset = Vector2( -399, 73 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="RichTextLabel" parent="DialogueWithResponses/Response3"]
+margin_left = 233.0
+margin_top = 75.0
+margin_right = 425.0
+margin_bottom = 92.0
+text = "Response 4
+"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="DialogueWithResponses/Response3"]
+position = Vector2( 209, 82 )
+frames = SubResource( 3 )
+animation = "Hide"
+playing = true
+
+[node name="Tween" type="Tween" parent="."]
+__meta__ = {
+"_editor_description_": "Test"
+}
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

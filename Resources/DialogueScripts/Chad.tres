@@ -1,0 +1,32 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/saywhat_godot/dialogue_resource.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+titles = {
+"Start": "1"
+}
+lines = {
+"1": {
+"character": "Chad",
+"next_id": "2",
+"replacements": [  ],
+"text": "wah wa-wah wa-wah wah",
+"type": "dialogue"
+},
+"2": {
+"character": "Chad",
+"next_id": "3",
+"replacements": [  ],
+"text": "wah wah",
+"type": "dialogue"
+},
+"3": {
+"character": "Chad",
+"next_id": "",
+"replacements": [  ],
+"text": "WAH",
+"type": "dialogue"
+}
+}

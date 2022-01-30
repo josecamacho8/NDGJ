@@ -1,0 +1,98 @@
+// SYNOPSIS:
+// Story follows MC, who is followed by LOCKED HEART, BIG BEER, ANXIETY, which are physical manifestations that have followed them most of their lives.
+// MC blames them for the state of their life, and the three manfiestations explain they are part of their DNA, they will never get rid of them, and
+// have been in their family since before they were born (except ANXIETY). MC says they hate them, wishes they can change, MC knocks out from drinking,...
+// wakes up floating in space, NARRATOR comes into play, asks MC if they would like to change, and to start we have to go back to when it all started....
+
+// MC transported to when GF (grandfatther) and F (father) in the moments when they incur their own traumas to be there for them. They will help
+// the versions of them stuck in time but will be addressing phantom versions of themselves watching alongside them.
+
+// Player can chose to help GF and F, if do so, will receive a part that they were missing that they now have excess at that moment. 
+// (A PIECE OF HEART, A GUIDE ON KNOWING WHEN TO WALK AWAY)
+
+// At end, MC will face off all their traumas and give a speech (I suppose).
+
+// NOTES:
+// * Have MC be non-binary
+// * Have MC be brown
+// * Ni No Kuni style!!!! SO after healing others hearts, that version of them will 
+// 		give them part of that so they can use in their own battle!!!!
+// * Narrator is really just (?): and at the end it will be just you
+
+
+# Introduction
+// Story starts at the corner of a bar
+// MC is sitted with personifications of his vices
+// LOCKED HEART, BIG BEER, ANXIETY
+
+
+
+
+// When transport back in time, and talk to ancestors
+// Have conversation with them while watching themselves
+
+
+# SPACE
+(?): Hello MC. I have seen you have gotten yourself into some... predicaments.
+MC: Yeah, I've been really goofing up recently. 
+(?): Ah, child. Try not to be so hard on yourself. You are only human.
+MC: But I should be hard on myself! Why would I ever want to be who I am?
+MC: I try and do good! I try and be a good person!
+MC: But whenever I look at the things I've done in my life, I'm just a joke.
+MC: I feel so trapped. I have always been like this... maybe it works for other people,
+MC: but not me....
+(?): The way you are feeling, the thoughts racing through your brain,
+(?): the way you move in life. It is not new.
+MC: It's not?
+(?): No my child. Your ancestors have been plagued with the same struggles that you too face now.
+(?): Would you like a chance at change?
+(?): Do you want to take a chance at changing your life?
+- YES! 
+- NO. goto # DOES NOT WANT TO CHANGE
+(?): I am glad, It is admirable to claim your space in the universe. Let us go.
+
+# DOES NOT WANT TO CHANGE
+(?): This is unfortunate.
+(?): For whatever reasons you hold, you have chosen not to change.
+(?): Unless you summon it within yourself to say "I want to change",
+(?): nothing will happen. You must first want change for yourself before
+(?): you get a chance at change. I am sorry my child.
+do game_over()  // restart space scene
+
+# LOCKED HEART
+// MC gets transported to seeing their GF incur the original trauma. Which is LOCKED HEART.
+// GF is a kid who reports getting bullied at school to his father (GGF), and is feeling sad about it, BUT
+// is not receiving love back from GGF (want to say because their poor, they just don't know, or are too busy with work),
+// GF starts believing their emotions aren't worth it and starts to shut down, and they incur a LOCKED HEART.
+
+// It is nowup to MC to unlock their heart.
+
+// After unlocking their heart, the original GF changes, while a phantom version of the GF give part of their heart to help unlock their own.
+// Note: the MC does not interact with origianl GF, talks to GF, who talks about how they wish they just had somebody to listen to them and they say sorry.
+// Say sorry, i didnt mean for all this to happen, and im sorry it ever did, did not deserve this
+// move on.
+
+// "Thank you, you have helped me overcome myself. Make us proud 
+// "I wish I just had someone to talk to when I was going through this. I truly did not know
+// it was gonna affect you, I... I am sorry. This was just the way things were. I now know better,
+// I hope you can use what you have learned form helping me to help yourself."
+
+# BIG BEER
+// MC gets transported to seeing their F who is dealing with a LOCKED HEART version of 
+
+
+
+
+# ANXIETY
+
+# ENDING
+
+// Conclusions:
+
+// * Can't change the past, but can learn from it to not repeat it.
+// * Actions not only affect yourself, but if you plan on having family, they affect them as well. 
+// * To change you have to want to change.
+// * Sometimes things out of our control (poverty) is bound to cause dysfunction.
+// * Breaking generational trauma is a HUGE undertaking, but if someone wants to and CHOOSES to change
+// * and requires honest conversations.
+// * Help isn't asking someone else to do it themselves but to help you find inner strength.
