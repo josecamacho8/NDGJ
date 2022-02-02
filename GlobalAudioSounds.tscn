@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Resources/Sounds/qubodup-DoorOpen01.ogg" type="AudioStream" id=1]
+
+[node name="GlobalSoundEffects" type="AudioStreamPlayer2D"]
+position = Vector2( 1, 2 )
+stream = ExtResource( 1 )

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Onwards and Upwards.wav-fb9a22f11c8222d26a02202664d53811.sample"
+
+[deps]
+
+source_file="res://Resources/Music/Onwards and Upwards.wav"
+dest_files=[ "res://.import/Onwards and Upwards.wav-fb9a22f11c8222d26a02202664d53811.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

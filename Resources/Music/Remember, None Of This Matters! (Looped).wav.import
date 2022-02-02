@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Remember, None Of This Matters! (Looped).wav-156912634e8efff87a8251cadee8e8a8.sample"
+
+[deps]
+
+source_file="res://Resources/Music/Remember, None Of This Matters! (Looped).wav"
+dest_files=[ "res://.import/Remember, None Of This Matters! (Looped).wav-156912634e8efff87a8251cadee8e8a8.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/saywhat_godot/dialogue_resource.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+titles = {"Character1":"1","Character2":"4","Character3":"7"}
+lines = {"1":{"character":"Bob","next_id":"end","replacements":[],"text":"Oh yeah, I remember your grandpappy. Is he okay?","type":"dialogue"},"4":{"character":"Barbara","next_id":"end","replacements":[],"text":"Good luck with that man, lord knows how many years he's got with that drinking habit of his...","type":"dialogue"},"7":{"character":"Gordon","next_id":"","replacements":[],"text":"Who are you?","type":"dialogue"}}

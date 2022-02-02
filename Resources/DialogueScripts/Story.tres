@@ -4,5 +4,196 @@
 
 [resource]
 script = ExtResource( 1 )
-titles = {"Introduction":"2"}
-lines = {"10":{"character":"Hob","next_id":"11","replacements":[],"text":"It's all YOUR fault!!!!","type":"dialogue"},"11":{"character":"Demon1","next_id":"12","replacements":[],"text":"No it's Hob. You're the one who did <>. Not us.","type":"dialogue"},"12":{"character":"Demon2","next_id":"13","replacements":[],"text":"HAHA, ya it was you not us.","type":"dialogue"},"13":{"character":"Hob","next_id":"14","replacements":[],"text":"BUT i wouldn't have done it if I didn't have you following me around everywhere!","type":"dialogue"},"14":{"character":"Demon3","next_id":"","replacements":[],"text":"And you'll never get rid of us too!","type":"dialogue"},"2":{"character":"Hob","next_id":"3","replacements":[],"text":"I just don't get why life can be so hard...","type":"dialogue"},"3":{"character":"Hob","next_id":"4","replacements":[],"text":"I f*** up everything I do, and hurt everyone.","type":"dialogue"},"4":{"character":"Demon1","next_id":"5","replacements":[],"text":"HEHEHEHE","type":"dialogue"},"5":{"character":"Demon2","next_id":"6","replacements":[],"text":"YA YA YA","type":"dialogue"},"6":{"character":"Demon3","next_id":"7","replacements":[],"text":"AGAGAGAGA","type":"dialogue"},"7":{"character":"Demon4","next_id":"8","replacements":[],"text":"YAHOOOOOO","type":"dialogue"},"8":{"character":"Hob","next_id":"9","replacements":[],"text":"Shut up! The four of you!!!!","type":"dialogue"},"9":{"character":"Hob","next_id":"10","replacements":[],"text":"You all have been following me around my whole life! Screwing everthing up!","type":"dialogue"}}
+titles = {
+"ANXIETY": "end",
+"BIG BEER": "end",
+"DOES NOT WANT TO CHANGE": "58",
+"ENDING": "",
+"HOUSE:FATHER": "31",
+"HOUSE:MOTHER": "28",
+"Introduction": "end",
+"LOCKED HEART": "end",
+"SPACE": "39"
+}
+lines = {
+"28": {
+"character": "Mother",
+"next_id": "end",
+"replacements": [  ],
+"text": "How are you today dear?",
+"type": "dialogue"
+},
+"31": {
+"character": "Father",
+"next_id": "end",
+"replacements": [  ],
+"text": "Hey son! Have I ever told you about Queen?",
+"type": "dialogue"
+},
+"39": {
+"character": "(?)",
+"next_id": "40",
+"replacements": [  ],
+"text": "Hello MC. I have seen you have gotten yourself into some... predicaments.",
+"type": "dialogue"
+},
+"40": {
+"character": "MC",
+"next_id": "41",
+"replacements": [  ],
+"text": "Yeah, I've been really goofing up recently.",
+"type": "dialogue"
+},
+"41": {
+"character": "(?)",
+"next_id": "42",
+"replacements": [  ],
+"text": "Ah, child. Try not to be so hard on yourself. You are only human.",
+"type": "dialogue"
+},
+"42": {
+"character": "MC",
+"next_id": "43",
+"replacements": [  ],
+"text": "But I should be hard on myself! Why would I ever want to be who I am?",
+"type": "dialogue"
+},
+"43": {
+"character": "MC",
+"next_id": "44",
+"replacements": [  ],
+"text": "I try and do good! I try and be a good person!",
+"type": "dialogue"
+},
+"44": {
+"character": "MC",
+"next_id": "45",
+"replacements": [  ],
+"text": "But whenever I look at the things I've done in my life, I'm just a joke.",
+"type": "dialogue"
+},
+"45": {
+"character": "MC",
+"next_id": "46",
+"replacements": [  ],
+"text": "I feel so trapped. I have always been like this... maybe it works for other people,",
+"type": "dialogue"
+},
+"46": {
+"character": "MC",
+"next_id": "47",
+"replacements": [  ],
+"text": "but not me....",
+"type": "dialogue"
+},
+"47": {
+"character": "(?)",
+"next_id": "48",
+"replacements": [  ],
+"text": "The way you are feeling, the thoughts racing through your brain,",
+"type": "dialogue"
+},
+"48": {
+"character": "(?)",
+"next_id": "49",
+"replacements": [  ],
+"text": "the way you move in life. It is not new.",
+"type": "dialogue"
+},
+"49": {
+"character": "MC",
+"next_id": "50",
+"replacements": [  ],
+"text": "It's not?",
+"type": "dialogue"
+},
+"50": {
+"character": "(?)",
+"next_id": "51",
+"replacements": [  ],
+"text": "No my child. Your ancestors have been plagued with the same struggles that you too face now.",
+"type": "dialogue"
+},
+"51": {
+"character": "(?)",
+"next_id": "52",
+"replacements": [  ],
+"text": "Would you like a chance at change?",
+"type": "dialogue"
+},
+"52": {
+"character": "(?)",
+"next_id": "53",
+"replacements": [  ],
+"text": "Do you want to take a chance at changing your life?",
+"type": "dialogue"
+},
+"53": {
+"condition": null,
+"next_id": "55",
+"next_id_after": "55",
+"replacements": [  ],
+"responses": [ "53", "54" ],
+"text": "YES!",
+"type": "response"
+},
+"54": {
+"condition": null,
+"next_id": "55",
+"next_id_after": "55",
+"replacements": [  ],
+"responses": [  ],
+"text": "NO.",
+"type": "response"
+},
+"55": {
+"character": "(?)",
+"next_id": "end",
+"replacements": [  ],
+"text": "I am glad, It is admirable to claim your space in the universe. Let us go.",
+"type": "dialogue"
+},
+"58": {
+"character": "(?)",
+"next_id": "59",
+"replacements": [  ],
+"text": "This is unfortunate.",
+"type": "dialogue"
+},
+"59": {
+"character": "(?)",
+"next_id": "60",
+"replacements": [  ],
+"text": "For whatever reasons you hold, you have chosen not to change.",
+"type": "dialogue"
+},
+"60": {
+"character": "(?)",
+"next_id": "61",
+"replacements": [  ],
+"text": "Unless you summon it within yourself to say \"I want to change\",",
+"type": "dialogue"
+},
+"61": {
+"character": "(?)",
+"next_id": "62",
+"replacements": [  ],
+"text": "nothing will happen. You must first want change for yourself before",
+"type": "dialogue"
+},
+"62": {
+"character": "(?)",
+"next_id": "63",
+"replacements": [  ],
+"text": "you get a chance at change. I am sorry my child.",
+"type": "dialogue"
+},
+"63": {
+"mutation": {
+"lhs_type": "error",
+"rhs_type": ""
+},
+"next_id": "end",
+"type": "mutation"
+}
+}

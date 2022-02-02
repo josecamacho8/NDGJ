@@ -16,7 +16,7 @@ func interact_with_object() -> void: # What to do when the action button is pres
 	dialogue.start()
 	
 func overlap_area_with_valid_dialogue() -> bool:
-	return overlappingArea.owner.StartingLine != "" and overlappingArea.owner.DialogueResource != null
+	return overlappingArea and overlappingArea.owner.StartingLine != "" and overlappingArea.owner.DialogueResource != null
 
 func _physics_process(delta) -> void:
 	if not GameState.IsInDialogueMode:
@@ -48,6 +48,8 @@ func _physics_process(delta) -> void:
 
 func _on_Area2D_area_entered(area) -> void:
 	logger.info("Area2D:%d." % area.get_rid().get_id(), "_on_Area2D_area_entered")
+	if area.owner.name == "SceneTransition":
+		area.owner.transition()
 	overlappingArea = area
 	
 func _on_Area2D_area_exited(area) -> void:

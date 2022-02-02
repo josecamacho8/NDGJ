@@ -21,13 +21,15 @@ _global_script_class_icons={
 [application]
 
 config/name="Narrative Game Jam"
-run/main_scene="res://World/TestLevel.tscn"
+run/main_scene="res://World/LivingRoom.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 DialogueManager="*res://addons/saywhat_godot/dialogue_manager.gd"
 GameState="*res://game_state.gd"
+GlobalAudioSounds="*res://GlobalAudioSounds.tscn"
+GlobalAudioMusic="*res://GlobalAudioMusic.tscn"
 
 [editor_plugins]
 
@@ -36,6 +38,8 @@ enabled=PoolStringArray( "res://addons/saywhat_godot/plugin.cfg" )
 [global]
 
 Remote=true
+default=false
+Scene=false
 
 [input]
 
